@@ -1,0 +1,7 @@
+ORIG_PN=PyX
+
+inherit distutils
+
+DESCRIPTION="Python TeTeX modules"
+HOMEPAGE="http://pyx.sourceforge.net/"
+SRC_URI="mirror://sourceforge/pyx/${ORIG_PN}-${PV}.tar.gz"

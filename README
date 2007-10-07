@@ -8,16 +8,16 @@ quality are built out of these primitives.
 Runtime requirements:
   cygwin-1.5.24-2
   libkpathsea4-3.0.0-3
-  python-2.5.1-1
+  python-2.5.1-3
 
 Build requirements:
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.1-1
+  cygport-0.3.5-1
   gcc-core-3.4.4-3
   make-3.81-1
   sed-4.1.5-2
-  python-2.5.1-1
+  python-2.5.1-3
   tetex-devel-3.0.0-3
 
 Canonical homepage:
@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-pyx-0.9-1-src.tar.bz2
+  unpack python-pyx-0.10-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-pyx-0.9-1.cygport all
+  cygport ./python-pyx-0.10-1.cygport all
 
 This will create:
-  /usr/src/python-pyx-0.9-1-src.tar.bz2
-  /usr/src/python-pyx-0.9-1.tar.bz2
+  /usr/src/python-pyx-0.10-1-src.tar.bz2
+  /usr/src/python-pyx-0.10-1.tar.bz2
 
 -------------------------------------------
 
@@ -187,12 +187,12 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/pyx/version.py
   /usr/lib/python2.4/site-packages/pyx/version.pyc
   /usr/lib/python2.4/site-packages/pyx/version.pyo
-  /usr/share/doc/Cygwin/python-pyx-0.9.README
-  /usr/share/doc/python-pyx-0.9/AUTHORS
-  /usr/share/doc/python-pyx-0.9/Changes
-  /usr/share/doc/python-pyx-0.9/INSTALL
-  /usr/share/doc/python-pyx-0.9/LICENSE
-  /usr/share/doc/python-pyx-0.9/README
+  /usr/share/doc/Cygwin/python-pyx-0.10.README
+  /usr/share/doc/python-pyx-0.10/AUTHORS
+  /usr/share/doc/python-pyx-0.10/Changes
+  /usr/share/doc/python-pyx-0.10/INSTALL
+  /usr/share/doc/python-pyx-0.10/LICENSE
+  /usr/share/doc/python-pyx-0.10/README
   /usr/share/pyx/10pt.lfs
   /usr/share/pyx/10ptex.lfs
   /usr/share/pyx/11pt.lfs
@@ -208,6 +208,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.10-1 -----
+Version bump.
 
 ----- version 0.9-2 -----
 Rebuilt for python-2.5.
